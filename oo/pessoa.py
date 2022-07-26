@@ -14,5 +14,9 @@ if __name__ == '__main__':
     print(gustavo.nome)
     print(gustavo.idade)
     print(gustavo.cumprimentar())
+    gustavo.sobrenome = 'sandrin'
+    del jasiel.filhos
     for filho in gustavo.filhos:
         print(filho.nome)
+    print(gustavo.__dict__)
+    print(jasiel.__dict__)
